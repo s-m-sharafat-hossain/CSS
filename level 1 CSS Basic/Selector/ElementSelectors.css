@@ -1,0 +1,28 @@
+/*
+Target element: Selects HTML elements based on their tag name
+
+Syntax: Simply use the element's name.
+
+Uniform styling: Helps in applying consistent styles to all instances
+
+Ease of Use: Straight forward and easy to implement for basic styling
+*/
+
+body{
+    background-color: rgb(18, 26, 1);
+}
+
+h1 {
+    font-size: 50px;
+    color: brown;
+    font-style: normal;
+}
+p{
+    font-size: larger;
+    color: aquamarine;
+}
+div{
+    color: blueviolet;
+}
+
+

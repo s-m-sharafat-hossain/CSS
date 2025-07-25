@@ -1,0 +1,25 @@
+/*
+Usage: Adds an image as a background to elements.
+
+Syntax: Defined using background-image: url('path/to/image');
+
+Repetition: Control image repetition using background-repeat.
+
+Positioning: Adjust image position using background-position.
+
+Size Control: background-size
+background-size: contain; -> fixed with height and width.
+
+Background Attachment: Sets whether the background image scrolls with the element of remains fixed.
+
+shorthand(color, image, repeat, attachment, position)
+
+*/
+#div1{
+    height: 100px;
+    width: 200px;
+    background-image: url(Facebook.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

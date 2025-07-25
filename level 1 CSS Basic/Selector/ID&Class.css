@@ -1,0 +1,42 @@
+/*
+ID property: Assign a unique identifier to a single HTML element
+    Example: <h1 id="h1"></h1>
+             <h1 id="h11"></h1>
+    In CSS: #h1{
+                color= blue
+                }
+
+Class property: Allows grouping of multiple Html element to style them collectively.
+    Example: <h1 class="h1"></h1>
+             <h1 class="h1"></h1>
+    In Css: .h1{
+                color=blue
+                }
+
+Reusable class: Class properties can be reused across different elements for consistent styling.
+
+Specificity and Targeting: Both properties assist in targeting specific or groups of elements precise styling.
+*/
+
+#h1{
+    color: chocolate;
+    font: small-caps;
+}
+#h11{
+    color: brown;
+}
+
+#p1{
+    color: blueviolet;
+}
+
+.p{
+    color: rgb(2, 49, 136);
+
+}
+.div{
+    color: darkred;
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

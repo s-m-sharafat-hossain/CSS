@@ -1,0 +1,18 @@
+/*
+Target and styles all elements on a webpage.
+
+Syntax: Utilized as an asterisk(*)
+
+Commonly used to reset margins and padding globally
+
+Useful for setting universal attributes like "font or color"
+
+Can cause style conflicts due to its wide-reaching effects.
+*/
+
+*{
+    color: aqua;
+    font: bold;
+    background-color: black;
+    
+}

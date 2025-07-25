@@ -1,0 +1,35 @@
+/*
+Dimension Control: Used to specify the height and width of elements.
+
+Unit Variable: Can use units like pixels(px)
+
+Box Model Component: Influences padding, border and margin.
+
+Min and Max Values: Can utilize min-height, max-height, min-width, and max-width.
+
+Syntax: div{
+            height: 40px; width: 40px
+            }
+*/
+
+
+
+.box{
+    font: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+     height: 30px;
+     width: 40px;
+}
+#box1{
+    background-color: bisque;
+}
+#box2{
+    background-color: rgb(151, 75, 223);
+}
+#box3{
+    background-color: coral;
+}
+#box4{
+    background-color: chartreuse;
+}

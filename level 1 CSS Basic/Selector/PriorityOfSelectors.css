@@ -1,0 +1,20 @@
+/*
+    -> INline styles: <p style="color: Blue";"Font=italic";>
+       
+    ->ID Selector: #p1{color=" "}
+    
+    ->Pseudo-class Selector: .h::first-letter{color: blue}
+    
+    ->Class Selector: .p{color: blue}
+    
+    ->Element Selector: h1{color: blue}
+
+    ->Group Selector: h1,div,#id,.class{color: blue}
+    
+    ->Universal Selector: *{color: blue}
+
+Inline -> ID -> Pseudo-class -> class -> element -> group -> group -> universal.
+
+*/
+
+

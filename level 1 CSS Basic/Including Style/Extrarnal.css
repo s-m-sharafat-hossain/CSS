@@ -1,0 +1,22 @@
+body{
+            background-color: #e8eff7; /* Dark gray background color */
+        }
+        h1{
+            font-size: 40px;
+            color: #084428; /* Blue color */
+        }
+        p{
+            font-size: 20px; /* Font size for paragraph */
+            color: #3203db; /* Red color */
+            
+        }
+        em{
+                font-style: normal;
+                color: #c20984;
+                font: bold; /* Italic style for emphasized text */
+            }
+        p{
+            
+            font-size: 20px; /* Font size for paragraph */
+            color: #410610; /* Red color */
+        }

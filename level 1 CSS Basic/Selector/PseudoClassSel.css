@@ -1,0 +1,11 @@
+/*
+Pseudo-Class basically use for more precise a class.
+*/
+
+
+.p::first-letter{
+    color: rgb(235, 60, 60);
+}
+.h1::backdrop{
+    color: rgb(74, 21, 221);
+}

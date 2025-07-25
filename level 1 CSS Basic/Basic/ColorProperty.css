@@ -1,0 +1,12 @@
+/*
+Definition: The CSS color property is used to set the color of text and other elements.
+Syntax: color: value;
+Values: Named colors (e.g., red, blue), HEX codes (e.g., #ff0000), RGB (e.g., rgb(255, 0, 0))
+Example:
+h1 {
+  color: blue;
+}
+*/
+h1 {
+  color: blue; /* Sets the text color of h1 elements to blue */
+}

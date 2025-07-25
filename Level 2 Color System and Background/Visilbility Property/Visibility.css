@@ -1,0 +1,21 @@
+/*
+Usage: Controls the visibility of elements without changing the layout.
+
+Values: Can take visible, hidden, or collapse as values.
+
+Space Occupancy: Even when hidden, the element occupies space.
+
+Interactivity: Hidden elements are not accessible user interaction.
+*/
+
+#box1{
+    height: 40px;
+    width: 60px;
+    background-color: violet;
+    visibility: hidden;
+}
+#box2{
+    height: 40px;
+    width: 60px;
+    background-color: rgb(189, 6, 189);
+}

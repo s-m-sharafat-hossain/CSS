@@ -1,0 +1,24 @@
+/*
+Usage: Control the horizontal alignment of text within an element.
+
+Values: Can take values like left, right, center and justify.
+
+Visual Appeal: Enhances readability and visual appeal by organizing text neatly.
+*/
+
+.box{
+    width: 80px;
+    height: 45px;
+    font-size: 25px;
+}
+#div1{
+    background-color: aquamarine;
+}
+
+#div2{
+    background-color: tomato;
+}
+
+#div3{
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,43 @@
+/*
+Hexadecimal Codes: Represents colors using Hexadecimal values, consisting of 6 digits combined from numbers letters(A-F)
+
+Syntax: Writing as #RRGGBB
+
+Easy Color Matching: Facilitates easy color matching with graphic design tools and branding colors.
+
+Web Standards: Widely supported and a common standard for defining colors in web design.
+
+-> #RRGGBB <1-F>
+White= #ffffff
+Black= #000000
+Red= #ff0000
+Green= #00ff00
+Blue= #0000ff
+Red+Green=Yellow #ffff00
+Green+Blue=Cyan #00ffff
+Red+Blue=Magenta #ff00ff
+Gray= #88888
+*/
+
+
+h1{
+    color: #000000;
+    background-color: #ffffff;
+}
+#d1{
+    color: #888888;
+    background-color: #0000ff;
+    font: bold;
+}
+#d2 p{
+    color: #ff0000;
+    background-color: #00ff00;
+}
+#d2 #p1{
+    color: #00ffff;
+    background-color: #000000;
+}
+button{
+    background-color: #ffff00;
+    color: #ff00ff;
+}

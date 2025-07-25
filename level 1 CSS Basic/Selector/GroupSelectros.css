@@ -1,0 +1,32 @@
+/*
+Style multiple elements simultaneously.
+Example: h1,h2,h3{
+                    color=""Blue";
+                }
+
+Syntax: Separates selectors with commas.
+
+Efficiency: Reduces code redundancy and saves time.
+
+Priority: ID -> Class -> Element Sel-> Group Sel -> Universal sel. 
+*/
+
+h1,div,p{
+    color: blue;
+}
+#h1,.p,h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#h1{
+    color: blueviolet;
+
+}
+.p{
+    color: brown;
+}
+
+#s1{
+    color:rgb(214, 8, 8);
+    font: bold;
+    font-size: 30px;
+}

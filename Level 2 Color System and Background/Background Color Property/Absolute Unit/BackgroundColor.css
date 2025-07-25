@@ -1,0 +1,25 @@
+/*
+Definition: Sets the background color of an element.
+
+Syntax: Utilized as "background-color: color;"
+
+Visual Appeal: Enhances the visual appeal and contrast of webpage elements.
+
+*/
+
+h1{
+    color: aliceblue;
+    background-color: black;
+}
+#d1{
+    color: blueviolet;
+    background-position: center;
+    background-color: cornsilk;
+    font: bold;
+}
+button{
+    background-color: rgb(5, 133, 150);
+    color: aliceblue;
+    size: 40px;
+    font-size: 25px;
+}

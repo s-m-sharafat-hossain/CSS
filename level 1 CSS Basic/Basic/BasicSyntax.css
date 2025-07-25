@@ -1,0 +1,15 @@
+/*
+Basic CSS Syntax
+1. Selectors: HTML elements you want to style (e.g., h1, p, .class, #id)
+2. Properties: Aspects you want to change (e.g., color, font-size, margin)
+3. Values: Settings for the properties (e.g., red, 16px, 10px)
+Example:
+h1 {
+  color: red;
+  font-size: 16px;
+}
+*/
+h1 {
+  color: red; /* Sets the text color of h1 elements to red */
+  font-size: 16px; /* Sets the font size of h1 elements to 16 pixels */
+}

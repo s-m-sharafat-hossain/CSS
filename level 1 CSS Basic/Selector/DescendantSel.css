@@ -1,0 +1,25 @@
+/*
+Nested Targeting: Styles elements nested within a specified element.
+
+Syntax: Separate Selectors with spaces.
+
+Example: 
+    div p{
+            color="color";
+        }
+
+    #div1 h3{
+            color="color";
+            }
+
+Hierarchy-Based: Allows styling based on the hierarchical structure of HTML.
+
+Specific Styling: Facilitates more targeted and specific styling of elements.
+*/
+
+div p{
+    color: blueviolet;
+}
+#div1 p{
+    color: brown;
+}
