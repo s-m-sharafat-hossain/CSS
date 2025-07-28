@@ -1,24 +1,31 @@
 /*
-Usage: Control the horizontal alignment of text within an element.
+Usage: Control the Text case change.
 
-Values: Can take values like left, right, center and justify.
+Values: Can take values like Upper case, lower case, Capitalize.
+
+None Value: none value disables text transformation.
+
+Typography: Useful for setting text style and improving typography in web design.
 
 Visual Appeal: Enhances readability and visual appeal by organizing text neatly.
 */
 
 .box{
-    width: 80px;
-    height: 45px;
+    width: 400px;
+    height: 30px;
     font-size: 25px;
 }
 #div1{
     background-color: aquamarine;
+    text-transform: lowercase;
 }
 
 #div2{
     background-color: tomato;
+    text-transform: uppercase;
 }
 
 #div3{
     background-color: cornflowerblue;
+    text-transform: capitalize;
 }

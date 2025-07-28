@@ -1,24 +1,25 @@
 /*
-Usage: Control the horizontal alignment of text within an element.
+Usage: Control space above and below inline element.
 
-Values: Can take values like left, right, center and justify.
+Readability: Improve readability by preventing overcrowding.
 
-Visual Appeal: Enhances readability and visual appeal by organizing text neatly.
+Vertical Spacing: Useful for controlling vertical spacing between lines of text.
 */
 
 .box{
-    width: 80px;
-    height: 45px;
     font-size: 25px;
 }
 #div1{
     background-color: aquamarine;
+    line-height: 15px;
 }
 
 #div2{
     background-color: tomato;
+    line-height: 45px;
 }
 
 #div3{
     background-color: cornflowerblue;
+    line-height: 55px;
 }

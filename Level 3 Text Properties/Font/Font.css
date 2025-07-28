@@ -1,24 +1,37 @@
 /*
-Usage: Control the horizontal alignment of text within an element.
+Usage: Set the size of font, weight of font etc.
 
-Values: Can take values like left, right, center and justify.
+Font-weight: Define the thickness of characters in a font.
 
-Visual Appeal: Enhances readability and visual appeal by organizing text neatly.
+Values: Can takes values like normal, bold, contrast or numeric values 100 to 900
+
+Text Emphasis: Utilized to emphasize text or create contrast between text elements.
+
+Responsiveness: Helps to creating responsive design adaptable to various screen sizes.
+
+Readability: Crucial for ensuring the readability of text on websites.
 */
 
 .box{
-    width: 80px;
-    height: 45px;
     font-size: 25px;
 }
+
+
 #div1{
+
     background-color: aquamarine;
+    font-weight: bold;
+
 }
 
 #div2{
     background-color: tomato;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 #div3{
     background-color: cornflowerblue;
+    font-size: 30px;
+    font-weight: bolder;
 }

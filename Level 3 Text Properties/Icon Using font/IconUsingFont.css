@@ -1,24 +1,18 @@
 /*
-Usage: Control the horizontal alignment of text within an element.
+Go to Google font and 1st link with google font.
 
-Values: Can take values like left, right, center and justify.
+Inserting the icon:
+class is not change you change name of icon.
+and you would like to add id.
 
-Visual Appeal: Enhances readability and visual appeal by organizing text neatly.
+icon size change in html. and css.
+
 */
 
-.box{
-    width: 80px;
-    height: 45px;
-    font-size: 25px;
+.material-symbols-outlined{
+    color: brown;
 }
-#div1{
-    background-color: aquamarine;
-}
-
-#div2{
-    background-color: tomato;
-}
-
-#div3{
-    background-color: cornflowerblue;
+#zoomout{
+    color: blue;
+    font-size: 45px;
 }

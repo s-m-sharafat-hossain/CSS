@@ -1,0 +1,23 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: blueviolet;
+}
+#inner{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+#outer{
+    font-size: 25px;
+    font-weight: 900;
+    color: tomato;
+}
+span{
+    font-size: 30px;
+    color: slateblue;
+}

@@ -1,9 +1,12 @@
 /*
-Usage: Control the horizontal alignment of text within an element.
+Usage: Modifies the appearance of inline text.
 
-Values: Can take values like left, right, center and justify.
+Values: Options include none, underline, overline and line-through.
 
-Visual Appeal: Enhances readability and visual appeal by organizing text neatly.
+Hyperlinks: Commonly used to remove underline from hyperlinks for aesthetic purposes.
+
+Text-Decoration-color use for decoration color
+
 */
 
 .box{
@@ -13,12 +16,21 @@ Visual Appeal: Enhances readability and visual appeal by organizing text neatly.
 }
 #div1{
     background-color: aquamarine;
+    text-decoration: underline;
+    text-decoration-color: brown;
 }
 
 #div2{
     background-color: tomato;
+    text-decoration: overline;
 }
 
 #div3{
     background-color: cornflowerblue;
+    text-decoration: line-through;
+    text-decoration-color: chocolate;
+}
+#a1{
+    text-decoration: none;
+    /* use to remove line under link. */
 }

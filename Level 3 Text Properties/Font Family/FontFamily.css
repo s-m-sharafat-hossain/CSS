@@ -1,24 +1,29 @@
 /*
-Usage: Control the horizontal alignment of text within an element.
+Usage: Defines which font should be used for text within and element.
 
-Values: Can take values like left, right, center and justify.
+Fallback Mechanism: Incorporate a fallback font family in case the primary font is unavailable; helps in maintaining the site aesthetics.
 
-Visual Appeal: Enhances readability and visual appeal by organizing text neatly.
+Web Safe Fonts: Employ web-safe fonts to ensure consistency across different browsers adn operating systems.
+
+Generic Family: Always end the font family list with an generic family like serif or sans-serif as a last resort option.
 */
 
 .box{
-    width: 80px;
-    height: 45px;
     font-size: 25px;
+    line-height: 30px;
 }
+
 #div1{
     background-color: aquamarine;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #div2{
-    background-color: tomato;
+    background-color: rgb(245, 109, 172);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #div3{
     background-color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
