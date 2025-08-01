@@ -1,0 +1,42 @@
+/*
+Usage: Creates an outline around HTML element.
+
+Components: Defined by width, style and color attributes.
+
+Styles: Includes options like solid, dashed and dotted.
+
+Syntax: Border: 2px solid black.
+                OR
+        Border: 5px;
+        Border-style: dashed;
+        Border-color: color;
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.div {
+    background-color: rgb(171, 124, 216);
+    height: 30px;
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#B1 {
+    margin: 5px;
+    border: 5px dashed black;
+}
+
+#B2 {
+    margin: 5px;
+    border: 5px;
+    border-style: dotted;
+    border-color: brown;
+}

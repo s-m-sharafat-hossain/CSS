@@ -1,0 +1,34 @@
+/*
+Usage: Sets the space around elements, separating them from other.
+
+individual: Customizable for top, right, bottom, and left sides.
+
+shorthand: Allows quick setup. margin: 10px 20px. (top right bottom left)
+
+Syntax: margin: 10px 20px (clockwise)
+        margin: 10px (for all side)
+        margin: auto (central alignment with auto value)
+
+Margin always follow minimum space. if we define 2 margin for 2 variable it minimize.
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.div{
+    background-color: rgb(171, 124, 216);
+    height: 50px;
+    width: 70px;
+    padding: 10px;
+}
+
+#M1{
+    margin: 10px;
+}
+#M2{
+    margin: 20px;
+}
+
+

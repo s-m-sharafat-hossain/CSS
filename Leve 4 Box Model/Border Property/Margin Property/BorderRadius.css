@@ -1,0 +1,40 @@
+/*
+Usage: Create Round Corners for element.
+
+Individual Corner: Allows Setting different radii for each corner.
+
+Syntax: Border: 2px solid black.
+        Border-Radius: 10px
+                OR
+        Border-Radius: 10px 20px
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.div {
+    background-color: rgb(171, 124, 216);
+    height: 30px;
+    width: 70px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#B1 {
+    border: 5px dashed black;
+    border-radius: 10px;
+}
+
+#B2 {
+    border: 5px;
+    border-style: solid;
+    border-color: darkgreen;
+    border-radius: 10px 20px;
+}

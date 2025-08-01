@@ -1,0 +1,42 @@
+/*
+Usage: Adjust element with box size or content. Also including padding content-box.
+
+If I define height and width, padding including this size or not fix it.
+
+
+Syntax: box-sizing: content-box; {Including Padding}
+
+        box-sizing: border-box; {Here padding add out of the box. Only content make the box}
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.div {
+    background-color: rgb(171, 124, 216);
+    height: 50px;
+    width: 70px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#B1 {
+    border: 5px dashed black;
+    box-sizing: border-box;
+
+}
+
+#B2 {
+    border: 5px;
+    border-style: solid;
+    border-color: darkgreen;
+    box-sizing: content-box;
+
+}

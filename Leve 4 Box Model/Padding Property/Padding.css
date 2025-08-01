@@ -1,0 +1,22 @@
+/*
+Usage: Defines the space between the content of an element and its border.
+
+individual: Allows setting padding for individual sides using padding-top, padding-right, padding-bottom, padding-left;
+
+shorthand: Can use shorthand property padding to set all sides at once, 
+
+Syntax: padding: 10px 20px 10px 20px. (top right bottom left)
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+} 
+#Padded{
+    
+    
+    width: 60px;
+    padding: 10px; 
+    /* That means 10px in all fore side. */
+    background-color: cadetblue;
+}
