@@ -1,0 +1,45 @@
+/* 
+-> Static (default): Element follow the normal document flow. (top, right, bottom, left, z-index would not work
+
+-> Relative: Element's position adjusted from its normal position.
+
+-> Absolute: Position element relative to the nearest ancestor.
+
+-> Fixed: Element positioned relative to the viewport, does not move on scroll.
+*/
+
+img{
+    width: 100vw;
+    height: 20vh;
+}
+.static{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 2vh 2vw;
+    height: 5vh;
+    width: 20vw;
+    background-color: coral;
+}
+#d1{
+    position: static;
+    top: 10vh;
+    left: 10vw;
+    /* Not change */
+}
+#d2{
+    position: relative;
+    top: 5%;
+    left: 10%;
+    /* Defends on static position */
+}
+#d3{
+    position: absolute;
+    top: 35vh;
+    left: 18vw;
+}
+#d4{
+    position: fixed;
+    top: 42vh;
+    left: 25vw;
+
+}

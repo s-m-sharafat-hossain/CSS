@@ -1,0 +1,26 @@
+/*
+-> Relative Sizing: Facilitates dynamic sizing relative to parents.
+-> Adaptability: Ensures responsiveness across various screens.
+-> Quickly set width and height as a percentage.
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+#box1{
+    background-color: tan;
+    height: 100px;
+    width: 100px;
+    
+}
+#box2{
+    background-color: rgb(153, 89, 5);
+    height: 50%;
+    width: 50%;
+}

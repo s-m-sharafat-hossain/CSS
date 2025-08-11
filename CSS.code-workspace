@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "CSS",
+			"path": "."
+		},
+		{
+			"name": "HTML",
+			"path": "../../../OneDrive/Desktop/GitHub/HTML"
+		},
+		{
+			"path": "../JavaScripts"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CSS"
+	}
+}

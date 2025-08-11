@@ -1,0 +1,35 @@
+/*
+=>rem:
+
+-> Relative Unit: Facilitates dynamic sizing relative across various screens.
+
+-> Adaptability: Ensures responsiveness across various screens.
+
+-> Dimensions: Quickly set width and height as a percentage.
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+#box1{
+    background-color: rgb(171, 102, 250);
+    height: 200px;
+    width: 200px;
+
+    font-size: 25px;
+    
+}
+#box2{
+    background-color: rgb(9, 233, 222);
+    height: 50%;
+    width: 70%;
+
+    font-size: 2r1em;
+}
+/* Here 2em means 2*25px. 2 multiplication with parents. It use for text*/

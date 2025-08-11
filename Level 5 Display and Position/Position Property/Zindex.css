@@ -1,0 +1,49 @@
+/* 
+Stacking Order: Determines the stacking order of elements along the Z-axis. (Mane akter upor akta chole ashbe)
+
+Position Context: Only applies to elements with position set to relative absolute, fixed or sticky.
+
+Integer Values: Accepts integer values, including negative numbers.
+
+Higher Values: An element with a higher z-index value appears above others. 
+
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.box{
+    position: absolute;
+    margin: 5px;
+    height: 5vh;
+    width: 12vw;
+    background-color: chocolate;
+    border-radius: 10px;
+    text-align: center;
+}
+#box1{
+    background-color: yellowgreen;
+    top: 150px;
+    left: 50px;
+}
+#box2{
+    background-color: cadetblue;
+    top: 180px;
+    left: 50px;
+}
+/* Default Z position based on div */
+#box3{
+    background-color: violet;
+    top: 250px;
+    left: 50px;
+    z-index: 2;
+}
+
+#box4{
+    background-color: coral;
+    top: 280px;
+    left: 50px;
+    z-index: 1;
+}
+/* Jar Z index beshi she upor a thekbe. */

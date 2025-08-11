@@ -1,0 +1,51 @@
+/* 
+-> Block Element:
+New Line: Start on a new line.
+Full Width: Take up all horizontal space.
+Styling: Can have margins and padding.
+Size: Width and height can be set.
+Examples: <div>, <p>, <h1>, <ul>, <li>
+
+->Inline Element:
+Flow: Stay line width
+Width: just as width
+No Break: No new Line
+Limited Styling: Can not size easily.
+Example: <span> <a> <p> <strong> <button>
+
+-> In Block element display set default block.
+
+-> In inline property we did not set height and width. 
+
+-> If I use display none. box is banish.
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.block{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 5px;
+    padding: 5px;
+    border: 5px dashed black;
+    border-radius: 10px;
+
+    display: block;
+
+}
+.Inline{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 5px;
+    border: 2px solid black;
+
+    display: inline;
+
+}
+#box3{
+    display: none;
+}

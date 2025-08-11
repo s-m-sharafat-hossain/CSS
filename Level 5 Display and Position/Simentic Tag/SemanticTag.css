@@ -1,0 +1,32 @@
+/* 
+Semantic Tag: Meaningful elements that clearly describe their meaning in a human- and machine-readable way. Examples include <header>, <footer>, <article>, and <section>. it helps search engines and other user agents understand the structure and content of the page.
+*/
+*{
+    margin: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+header{
+    padding-top: 10px;
+    height: 50px;
+    width: 350px;
+    background-color: violet;
+}
+main{
+    margin-top: 5px;
+    padding-top: 25px;
+    height: 150px;
+    width: 350px;
+    background-color: rgb(6, 214, 69);
+}
+footer{
+    margin-top: 5px;
+    padding-top: 10px;
+    height: 50px;
+    width: 350px;
+    background-color: rgb(150, 130, 238);
+}
+/* Non-Semantic Tag: Elements that do not provide any information about their content. Examples include <div> and <span>. It is not meaningful to search engines or other user agents. */

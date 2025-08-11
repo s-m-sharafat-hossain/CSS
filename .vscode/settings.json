@@ -1,4 +1,13 @@
 {
     "editor.fontSize": 24,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "cSpell.words": [
+        "akta",
+        "akter",
+        "ashbe",
+        "beshi",
+        "chole",
+        "thekbe",
+        "upor"
+    ]
 }
