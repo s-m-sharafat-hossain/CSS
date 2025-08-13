@@ -1,0 +1,45 @@
+/* 
+-> Element Alignment: Allows elements to be aligned to the left or right within their containing element.
+
+-> Values: Can take values like 'left', 'right' or 'none' ro determine the floating direction.
+
+-> Old layout Technique: Less commonly used with the advent of flexbox. 
+*/
+*{
+    margin: 5px;
+    padding: 0px;
+}
+.div{
+    height: 20vh;
+    width: 80vw;
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.box{
+    position: relative;
+    top: 1.2%;
+    height: 90%;
+    width: 46%;
+
+}
+p{
+    position: relative;
+    top: 35%;
+    font-weight: bold;
+}
+#box1{
+    right: 0.5%;
+    background-color: chocolate;
+    border: 2px solid black;
+    float: right;
+}
+#box2{
+    left: 0.5%;
+    background-color: aqua;
+    border: 2px solid black;
+    float: left;
+}

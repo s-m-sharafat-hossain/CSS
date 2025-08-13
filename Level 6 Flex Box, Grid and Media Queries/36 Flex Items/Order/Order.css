@@ -1,0 +1,71 @@
+/*
+-> The "order" property in css allows you to define the sequence in which flex items appear within the flex container, overriding their original order in the HTML.
+
+-> Order start from 0.
+*/
+
+*{
+    margin: 5px;
+    padding: 0px;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.div1{
+    height: 35vh;
+    width: 95vw;
+    background-color: cornflowerblue;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+
+    display: flex;
+}
+
+#Con1{
+    justify-content: center;
+}
+
+#Con2{
+    justify-content: center;
+}
+
+#Con3{
+    justify-content: center;
+}
+
+
+.Container1{
+    height: 40%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+p{
+    position: relative;
+    top: 35%;
+    font-weight: bold;
+}
+
+
+#box1{
+    background-color: chocolate;
+    order: 2;
+}
+#box2{
+    background-color: aqua;
+    order: 3;
+
+}
+#box3{
+    background-color: rgb(248, 93, 196);
+    order: 0;
+}
+#box4{
+    background-color: rgb(37, 231, 12);
+    order: 1;
+}
+/* Jar order beshi se shesh a jabe. */

@@ -1,0 +1,61 @@
+/* 
+-> Tailor styles for specific device characteristics. 
+-> Use to to create responsive web designs.
+-> Apply styles based on conditions like screen size.
+-> Syntax: @media (condition) {CSS rules
+}.
+-> Can combine multiplication using and, or.
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.Item{
+    text-align: center;
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+}
+@media screen and (width: 300px) {
+    .Item{
+        background-color: blueviolet;
+    }
+    /* Ata conditional statement ar moto jkn i screen size 300px hbe thkn i color change hoi jabe. */ 
+}
+
+@media screen and (height: 300px) {
+    .Item{
+        background-color: rgb(62, 233, 71);
+    }
+    /* Ata conditional statement ar moto jkn i screen size 300px hbe thkn i color change hoi jabe. */ 
+}
+/* Min-width */
+@media screen and (min-width: 300px) {
+    .Item{
+        height: 150px;
+        width: 150px;
+    }
+    /* Ata holo minimum width 300px par hole box size 150*150 hoi jabe. */ 
+}
+
+/* Max-width */
+@media screen and (max-width: 300px) {
+    .Item{
+        height: 50px;
+        width: 50px;
+    }
+    /* Ata holo maximum width 300px ar kom hole box size 50*50 hoi jabe. */ 
+}
+
+/* Combination */
+@media screen and (min-width:600px) and (max-width: 800px) {
+    .Item{
+        border-radius: 50px;
+    }
+    
+}
+
+

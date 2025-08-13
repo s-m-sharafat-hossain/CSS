@@ -1,14 +1,17 @@
-/* 
--> Flexbox is a one-dimensional layout method for arranging items in rows or columns.
+/*
+The "flex-grow" property in CSS determines how much a flex item will Grow relative to other items in the flex container when additional space is available.*/
 
--> Items flex (expand) to fill additional space or shrink to fit into smaller spaces.
-*/
 *{
     margin: 5px;
     padding: 0px;
 }
-.div{
-    height: 15vh;
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.div1{
+    height: 35vh;
     width: 95vw;
     background-color: cornflowerblue;
     border: 3px solid black;
@@ -17,35 +20,48 @@
     font-size: 20px;
 
     display: flex;
-    /* By default left to right set. */
 }
-.box{
-    position: relative;
-    top: 1.2%;
-    left: 1.5%;
-    height: 90%;
-    width: 22%;
+
+#Con1{
+    justify-content: center;
+}
+
+#Con2{
+    justify-content: center;
+}
+
+#Con3{
+    justify-content: center;
+}
+
+
+.Container1{
+    height: 40%;
+    width: 15%;
     border-radius: 10px;
 }
+
 p{
     position: relative;
     top: 35%;
     font-weight: bold;
 }
+
+
 #box1{
     background-color: chocolate;
+    flex-grow: 1;
 }
 #box2{
     background-color: aqua;
+
 }
 #box3{
     background-color: rgb(248, 93, 196);
+    flex-grow: 3;
 }
 #box4{
     background-color: rgb(37, 231, 12);
-}
 
-img{
-    height: 25vh;
-    width: 95vw;
 }
+/* Grow joto barbe size toto big hbe */

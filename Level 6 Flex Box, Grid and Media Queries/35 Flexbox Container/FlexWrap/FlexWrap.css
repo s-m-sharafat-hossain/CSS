@@ -1,14 +1,16 @@
-/* 
--> Flexbox is a one-dimensional layout method for arranging items in rows or columns.
 
--> Items flex (expand) to fill additional space or shrink to fit into smaller spaces.
-*/
 *{
     margin: 5px;
     padding: 0px;
 }
-.div{
-    height: 15vh;
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* flex: row */
+.div1{
+    height: 35vh;
     width: 95vw;
     background-color: cornflowerblue;
     border: 3px solid black;
@@ -17,14 +19,25 @@
     font-size: 20px;
 
     display: flex;
-    /* By default left to right set. */
+    /* By default left to right set. and row */
 }
-.box{
-    position: relative;
-    top: 1.2%;
-    left: 1.5%;
-    height: 90%;
-    width: 22%;
+
+#Con1{
+    flex-wrap: nowrap;
+}
+
+#Con2{
+    flex-wrap: wrap;
+}
+
+#Con3{
+    flex-wrap: wrap-reverse;
+}
+
+
+.Container1{
+    height: 30%;
+    width: 30%;
     border-radius: 10px;
 }
 p{
@@ -44,7 +57,9 @@ p{
 #box4{
     background-color: rgb(37, 231, 12);
 }
-
+#box5{
+    background-color: rgb(28, 63, 218);
+}
 img{
     height: 25vh;
     width: 95vw;

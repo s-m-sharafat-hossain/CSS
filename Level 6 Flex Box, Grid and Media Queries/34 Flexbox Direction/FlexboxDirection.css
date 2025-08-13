@@ -1,0 +1,103 @@
+/* 
+-> Property Name: flex-direction is the Property used to define the direction in a flex container.
+
+-> Row Layout: row value aligns the flex items horizontally, in a left-to-right fashion.
+
+-> Reverse Direction: Adding-reverse to row on column( as in row-reverse or column-reverse) reverses the order of the items.
+*/
+*{
+    margin: 5px;
+    padding: 0px;
+}
+
+/* flex: row */
+.div1{
+    height: 15vh;
+    width: 95vw;
+    background-color: cornflowerblue;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+
+    display: flex;
+    /* By default left to right set. */
+    flex-direction: row;
+}
+
+/* flex: column */
+.div2{
+    height: 45vh;
+    width: 25vw;
+    background-color: cornflowerblue;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+
+    display: flex;
+    /* By default left to right set. */
+    flex-direction: column;}
+
+/* flex: row-reverse */
+.div3{
+    height: 15vh;
+    width: 95vw;
+    background-color: cornflowerblue;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+
+    display: flex;
+    /* By default left to right set. */
+    flex-direction: row-reverse;
+}
+
+/* flex: column-reverse */
+.div4{
+    height: 45vh;
+    width: 25vw;
+    background-color: cornflowerblue;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+
+    display: flex;
+    /* By default left to right set. */
+    flex-direction: column-reverse;
+}
+.Container1{
+    position: relative;
+    margin-inline-start: 2%;
+    margin-inline-end: 2%;
+    top: 1.2%;
+    height: 90%;
+    width: 24%;
+    border-radius: 10px;
+}
+.Container2{
+    position: relative;
+    left: 2%;
+    height: 40%;
+    width: 90%;
+    border-radius: 10px;
+}
+p{
+    position: relative;
+    top: 35%;
+    font-weight: bold;
+}
+#box1{
+    background-color: chocolate;
+}
+#box2{
+    background-color: aqua;
+}
+#box3{
+    background-color: rgb(248, 93, 196);
+}
+#box4{
+    background-color: rgb(37, 231, 12);
+}

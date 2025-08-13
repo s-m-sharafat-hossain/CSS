@@ -1,0 +1,58 @@
+/* 
+-> 2D layout system for rows & columns.
+
+-> Active with display: grid;
+
+-> Children become grid items.
+
+-> Define structure with grid-template properties.
+
+-> individual units called grid calls.
+*/
+
+*{
+    padding: 0px;
+    margin: 5px;
+}
+
+.Container{
+    height: 40vh;
+    width: 90vw;
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 30vw;
+    grid-template-rows: 30vh;
+}
+
+.Item{
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 60%;
+    width: 60%;
+}
+
+
+#box1{
+    background-color: burlywood;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#box2{
+    background-color: blueviolet;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+#box3{
+    background-color: violet;
+    grid-column: 1/2;
+    grid-row: 2/2;
+}
+#box4{
+    background-color: steelblue;
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
