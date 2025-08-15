@@ -1,0 +1,45 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    height: 10vh;
+    width: 30vw;
+    margin: 25px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: cyan;
+
+    
+}
+.box:hover{
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+
+}
+
+#box1:hover{
+    background-color: blueviolet;
+    transform: translate(150px);
+}
+#box2:hover{
+    background-color: rgb(226, 43, 128);
+    transform: translate(150px);
+}
+#box3:hover{
+    background-color: rgb(43, 226, 83);
+    transform: translate(150px);
+}
+#box4:hover{
+    background-color: rgb(226, 110, 43);
+    transform: translate(-150px);
+    
+}

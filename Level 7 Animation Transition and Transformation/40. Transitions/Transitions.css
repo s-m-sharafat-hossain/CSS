@@ -1,0 +1,47 @@
+/* 
+=> CSS transition is a property that enables smooth animation between changes in CSS property values.
+
+- transition-property: Defines which CSS properties will transition.
+
+- transition-duration: Sets how long transition lasts.
+
+- transition-timing-function: Controls the speed curve of the transition.
+
+- transition-delay: Specifies a delay before the transition starts.
+*/
+
+.button{
+    height: 7vh;
+    width: 40vw;
+    border: 4px solid slateblue;
+    border-radius: 20px;
+    background-color: cadetblue;
+    font-size: 150%;
+    font-weight: bold;
+    color: rgba(192, 15, 118, 0.904);
+
+}
+
+.button:hover{
+    height: 12vh;
+    width: 60vw;
+    background-color: cyan;
+    color: black;
+    font-size: 200%;
+    font-weight: bold;
+
+    
+/* Transition */
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+
+    /* transition: all ease-in-out 2s 0.1s; */
+}
+.button:active{
+    height: 10vh;
+    width: 50vw;
+    background-color: darksalmon;
+    border-color: teal;
+}
